@@ -1,4 +1,4 @@
-# <Your student ID>
+# 1155202866
 import numpy as np
 import pandas as pd
 import random
@@ -7,6 +7,7 @@ from matplotlib import gridspec
 import seaborn as sns
 import re
 from wordcloud import WordCloud
+import matplotlib.colors as mcolors
 
 # Problem 2
 def problem_2(input_csv_list, output="q2.jpg"):
@@ -87,7 +88,6 @@ def problem_4(df, output="q4.png"):
 
 
 # Problem 5
-import matplotlib.colors as mcolors
 def problem_5(n=100, r=1, output="q5.jpg"):
     # write your logic here
     random.seed(4320) # for reproducibility
